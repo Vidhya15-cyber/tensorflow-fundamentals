@@ -1,19 +1,23 @@
-# 🥔 Potato Leaf Disease Classification
+ # 🧠 TensorFlow Fundamentals
 
 ## 📌 Overview
 
-Potato Leaf Disease Classification is a deep learning project that identifies diseases in potato leaves using Convolutional Neural Networks (CNN). The model classifies leaf images into different disease categories, helping support early disease detection and improved crop management.
+This repository contains hands-on exercises and examples covering the fundamental concepts of TensorFlow. It is designed to build a strong foundation in deep learning by exploring tensors, variables, tensor operations, reshaping, slicing, and other core TensorFlow functionalities.
 
 ---
 
-## ✨ Features
+## ✨ Topics Covered
 
-- 🥔 Potato leaf disease classification
-- 🧠 CNN-based deep learning model
-- 📷 Image preprocessing and augmentation
-- 📊 Model training and evaluation
-- 🎯 Predict disease categories from leaf images
-- 🌱 Supports smart agriculture applications
+- Introduction to TensorFlow
+- Creating Tensors
+- Tensor Data Types
+- Tensor Shapes and Dimensions
+- Tensor Operations
+- Tensor Reshaping
+- Tensor Slicing
+- Variables and Constants
+- Type Casting
+- Basic Deep Learning Concepts
 
 ---
 
@@ -21,22 +25,18 @@ Potato Leaf Disease Classification is a deep learning project that identifies di
 
 - Python
 - TensorFlow
-- Keras
 - NumPy
-- Matplotlib
-- OpenCV (if used)
+- Jupyter Notebook
 
 ---
 
 ## 📂 Project Structure
 
 ```
-potato-leaf-disease-classification/
+tensorflow-fundamentals/
 │
-├── potato_leaf_disease.ipynb
-├── app.py (optional)
-├── dataset/
-├── model/
+├── tensorflow_basics.ipynb
+├── examples/
 ├── requirements.txt
 └── README.md
 ```
@@ -48,7 +48,7 @@ potato-leaf-disease-classification/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/potato-leaf-disease-classification.git
+git clone https://github.com/yourusername/tensorflow-fundamentals.git
 ```
 
 Install the required dependencies
@@ -57,13 +57,7 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
-Run the project
-
-```bash
-python app.py
-```
-
-or
+Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -71,43 +65,25 @@ jupyter notebook
 
 ---
 
-## ▶️ Usage
+## 📚 Learning Objectives
 
-1. Load the potato leaf image dataset.
-2. Preprocess and augment the images.
-3. Train the CNN model.
-4. Evaluate the model.
-5. Upload a leaf image to predict the disease category.
+After completing this repository, you will understand:
 
----
-
-## 📊 Workflow
-
-- Data Collection
-- Image Preprocessing
-- Data Augmentation
-- CNN Model Training
-- Model Evaluation
-- Disease Prediction
+- TensorFlow fundamentals
+- Tensor creation and manipulation
+- Tensor operations
+- Data preprocessing basics
+- Building a strong foundation for deep learning projects
 
 ---
-
-## 🌿 Disease Classes
-
-- Potato Early Blight
-- Potato Late Blight
-- Healthy Potato Leaf
-
----
-
 
 ## 📈 Future Enhancements
 
-- Mobile application for farmers
-- Real-time disease detection using a camera
-- Support for multiple crop diseases
-- Transfer Learning using EfficientNet or MobileNet
-- Cloud deployment for online predictions
+- TensorFlow Keras Basics
+- Building Neural Networks
+- CNN Fundamentals
+- Transfer Learning
+- TensorFlow Model Deployment
 
 ---
 
